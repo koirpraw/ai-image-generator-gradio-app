@@ -29,14 +29,14 @@ class StableDiffusionGenerator:
             if model_type == "SDXL":
                 self.pipeline = StableDiffusionXLPipeline.from_pretrained(
                     str(model_full_path),
-                    torch_dtype=torch.float16,
+                    dtype=torch.float16,
                     use_safetensors=True,
                     variant="fp16"
                 )
             else:  # SD1.5 or SD2.1
                 self.pipeline = StableDiffusionPipeline.from_pretrained(
                     str(model_full_path),
-                    torch_dtype=torch.float16,
+                    dtype=torch.float16,
                     use_safetensors=True
                 )
             
