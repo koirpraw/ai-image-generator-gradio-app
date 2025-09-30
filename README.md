@@ -35,8 +35,8 @@ sd-gradio-app/
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd sd-gradio-app
+git clone https://github.com/koirpraw/ai-image-generator-gradio-app.git
+cd ai-image-generator-gradio-app
 ```
 
 2. Create a virtual environment:
