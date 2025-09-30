@@ -1,0 +1,42 @@
+# Configuration file for SD Gradio App
+# Copy this to config.yaml and modify as needed
+
+# Server settings
+server:
+  host: "0.0.0.0"
+  port: 7860
+  share: false # Set to true to create a public Gradio share link
+
+# Model settings
+models:
+  default_model: "stable-diffusion-v1-5"
+  default_type: "SD1.5"
+  models_directory: "./models"
+
+# Generation defaults
+generation:
+  default_steps: 25
+  default_guidance_scale: 7.5
+  default_width: 512
+  default_height: 512
+  max_width: 1024
+  max_height: 1024
+
+# Performance settings
+performance:
+  enable_attention_slicing: true
+  enable_vae_slicing: true
+  enable_xformers: false # Set to true if xformers is installed
+  use_fp16: true
+
+# Security (for production)
+security:
+  enable_auth: false
+  username: "admin"
+  password: "changeme" # Change this!
+
+# Advanced
+advanced:
+  save_outputs: false
+  output_directory: "./outputs"
+  log_level: "INFO"
