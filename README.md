@@ -3,7 +3,7 @@
 A simple Gradio application for generating AI images using Stable Diffusion models (SD1.5, SD2.1, SDXL) on Google Cloud Platform with L4 GPU.
 
 # App preview
-![App Preview](app_preview.png)
+!([app_preview.png](https://github.com/koirpraw/ai-image-generator-gradio-app/blob/main/assets/app_preview.png))
 
 ## Features
 
