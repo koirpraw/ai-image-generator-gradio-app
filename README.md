@@ -2,6 +2,12 @@
 
 A Gradio application for generating AI images using Stable Diffusion models with **two deployment approaches**: Full Pipeline and Minified. Optimized for Google Cloud Platform with L4 GPU.
 
+## App Preview
+
+| Full Pipeline Interface | Minified Interface |
+|------------------------|-------------------|
+| ![Full App Preview](assets/app_preview.png) | ![Minified App Preview](assets/minified_app_preview.png) |
+
 ## 🚀 Two Approaches Available
 
 ### 🅰️ **Full Pipeline Approach** (Robust & Feature-Complete)
